@@ -1,0 +1,74 @@
+.playContent{  background:#000000; padding-top: 3px;}
+.playScreen{  margin: auto;}
+.proLines{ color:#D0D0D0; padding-left:1px;padding-right:1px; height:18px;}
+.arial{  font-size: 12px; font-weight: 500; font-family: arial;line-height:18px; float:left;}
+.line {
+    height:8px;
+    border: 1px solid #303030;
+    -moz-border-radius: 15px;      /* Gecko browsers */
+    -webkit-border-radius: 15px;   /* Webkit browsers */
+    border-radius:15px;            /* W3C syntax */
+    float:left;
+    margin-top: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
+    cursor:pointer;
+}
+.isPlayLine{
+    width:0px;height:6px;
+    border: 1px solid #399CCF;
+    -moz-border-radius: 15px;      /* Gecko browsers */
+    -webkit-border-radius: 15px;   /* Webkit browsers */
+    border-radius:15px;            /* W3C syntax */
+    background-color:#399CCF;
+}
+.currentCircle{
+    width:12px;height:12px;
+    -moz-border-radius: 6px;      /* Gecko browsers */
+    -webkit-border-radius: 6px;   /* Webkit browsers */
+    border-radius:6px;            /* W3C syntax */
+    background-color:#fff;
+    position:absolute;
+    z-index: 99;
+    margin-top: -3px;
+    margin-left: -1px;
+}
+.playBars{ height:46px;background:url('../Images/bars.jpg') repeat-x; margin-top: -2px; clear:both;}
+.prevBar{ width:28px; height: 28px;  padding-top:8px; margin-left: 5px; float:left;cursor: pointer;}
+.startBar{ width:34px; height: 33px; padding-top:5px; margin-left: 6px;float:left; cursor: pointer;}
+.nextBar{ width:28px; height: 28px; padding-top:8px; margin-left: 8px;float:left ;cursor: pointer;}
+.voiceContent{ width:80px;height:15px;padding-top:15px; margin-right: 28px;float:right ;color:#fff}
+.voice{ float:left;}
+.voiceline{
+    float:left;
+    width:45px;
+    height:13px;
+    margin-top: -1px;
+    margin-left: 3px;
+    background: url("../Images/voiceline.jpg") no-repeat;
+}
+.voicekuai{
+    width:6px;height:12px;
+    -moz-border-radius: 2px;      /* Gecko browsers */
+    -webkit-border-radius:2px;   /* Webkit browsers */
+    border-radius:2px;            /* W3C syntax */
+    background-color: #fff;
+    position:absolute;
+    margin-top: 3px;
+}
+
+/*tooltip效果*/
+.dtooltipOpacity {
+    background: #4A4849;
+    padding:2px;
+    border: 1px solid #4A4849;
+    border-radius: 2px 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    color:#658FA5;
+    margin-left:1px;
+    margin-top:10px;
+    text-align: center;
+    z-index:99999;
+    font-size: 12px;
+}

@@ -1,0 +1,56 @@
+﻿<!DOCTYPE HTML>
+<html xmlns=http://www.w3.org/1999/xhtml>
+<title>HTML5视频</title>
+<head>
+    <meta http-equiv=Content-Type content="text/html;charset=utf-8">
+    <script src="JavaScript/jquery-1.7.2.min.js"></script>
+    <script src="JavaScript/jsPlayer.js"></script>
+    <script src="JavaScript/dtooltip-min.js"></script>
+    <link href="CSS/play.css?var=1121" rel="stylesheet" type="text/css">
+    <script>
+        $(document).ready(
+                function(){
+                    var ps=new jsPlayer("700","500","myVideo");
+                }
+        );
+    </script>
+</head>
+<body>
+<h1 style="text-align: center"><b>中国共产党建党成立100周年庆祝大会</b></h1>
+<div style="width:700px;margin:auto;">
+    <!--播放器代码开始-->
+    <div class="playContent">
+        <div class="playScreen">
+            <video id="myVideo">
+                <source src="http://flv4mp4.people.com.cn/videofile7/livesphere/2021/07/01/7xj8iqw_1625104282379_wGcw6X7.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="proLines">
+            <div id="origin" class="arial">00:00:00</div>
+            <div class="line">
+                <div class="isPlayLine">
+                    <div class="currentCircle">
+
+                    </div>
+                </div>
+            </div>
+            <div id="duration" class="arial"></div>
+        </div>
+        <div class="playBars">
+            <div class="prevBar"><img src="Images/prev.jpg" border="0" id="prev"></div>
+            <div class="startBar"><img src="Images/stop.jpg" border="0" id="imgStatus"></div>
+            <div class="nextBar"><img src="Images/next.jpg" border="0" id="next"></div>
+            <div class="voiceContent">
+                <div class="voice">
+                    <img src="Images/voice.jpg" id="voiceImg" border="0">
+                </div>
+                <div class="voiceline">
+                    <div class="voicekuai"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--播放器代码结束-->
+</div>
+</body>
+</html>
